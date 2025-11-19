@@ -1,0 +1,79 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+hr{
+    margin: 0px 20px;
+}
+nav{
+    display: flex;
+    background-color: rgb(155, 203, 248);
+    align-items: center;
+    justify-content: space-between;
+}
+nav img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+h2{
+    font-family: "Grand Hotel", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size:40px;
+    padding: 10px;
+    margin-left: 10px;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10px;
+    align-items: center;
+    padding: 10px;
+}
+.item-details{
+    animation: fade both;
+    animation-duration: 0.8s both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 70%;
+}
+@keyframes fade{
+    from{
+        margin-top:30px;
+    }
+    to{
+        margin-top: 0;
+    }
+}
+.item-details h3{
+    font-family: poppins;
+    font-size:large;
+    font-weight: 500;
+}
+.item-details p{
+    font-size: medium;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.card img{
+    width: 20%;
+    height: 20%;
+    border-bottom-right-radius:20%;
+    border-bottom-left-radius:20%;
+    border-top-right-radius:20%;
+    object-fit: contain;
+    animation: imageLoad both;
+    transition: ease-in-out;
+    animation-duration: 1.5s;
+
+}
+
+@keyframes imageLoad{
+    from{
+        margin-right:-100px;
+    }
+    to{
+        margin-right: 0;
+    }
+}
+
