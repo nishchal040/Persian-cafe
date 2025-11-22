@@ -41,9 +41,13 @@ button{
     cursor: pointer;
 }
 .admin-container{
-    display:none;
+    display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10px;
+}
+a{
+    color: inherit;
+    text-decoration: none;
 }
