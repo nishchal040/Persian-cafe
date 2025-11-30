@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: rgb(155, 203, 248);
+    align-items: center;
+    justify-content: space-between;
+}
+nav img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+h2{
+    font-family: "Grand Hotel", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size:40px;
+    padding: 10px;
+    margin-left: 10px;
+}
+.login-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+input{
+    padding: 10px;
+}
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+    margin: 0; /* Ensures no extra space is left behind */
+}
+button{
+    padding: 10px;
+    cursor: pointer;
+}
+.admin-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.item-img-preview {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-right: 10px;
+}
