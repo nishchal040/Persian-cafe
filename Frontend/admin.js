@@ -167,7 +167,7 @@ function uploadfile() {
         const formData = new FormData();
         formData.append("file", newFile);
 
-        fetch("http://localhost:3000/upload", {
+        fetch("https://persian-cafe.onrender.com", {
             method: "POST",
             body: formData
         })
